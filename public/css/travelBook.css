@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100%;
+   
+}
+
+
+/* Navigation */
+header{
+    height: 100%;
+    background: url(../images/couple.jpg) no-repeat bottom/cover;
+}
+
+nav {
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(109, 108, 108, 0.5);
+    box-shadow: 10px 5px 5px black;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 70px;
+}
+
+nav>ul>li{
+    padding :10px 50px;
+}
+
+li>a{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+/* section */
+
+section{
+    height: 100%;
+    background-color: #132C30
+}
+
+h1{
+    color: red;
+}
